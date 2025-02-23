@@ -1,4 +1,5 @@
 #include <iostream>
+#include<vector>
 
 using namespace std;
 
@@ -23,5 +24,9 @@ int main(){
 	string input;
 	while(getline(cin, input)){
 		auto inputs = split(input);
-		printf("|**%s**|%s|%s|%s|\n", 
+		if(inputs.size() > 4)
+			for(int i = 4; i < int(inputs.size()); i++)
+				inputs[3]+= " " + inputs[i];
+		printf("|**%s**|%s|%s|%s|\n", inputs[0].c_str(), inputs[1].c_str(), inputs[2].c_str(), inputs[3].c_str());
 	}
+}
