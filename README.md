@@ -1,3 +1,3 @@
 # S1English
-### *s1*で習った@rhyskaの英語日記
+**@rhyska**の英語日記
 
