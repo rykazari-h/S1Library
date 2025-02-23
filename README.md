@@ -1,3 +1,3 @@
 # S1English
-**@rhyska**の英語日記
+**@rhyska**の日記
 
