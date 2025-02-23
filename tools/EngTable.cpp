@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/*
+InputFormat -> eng jpn part tips
+使いどころは意外とないかもしれない(手動で十分)
+*/
 vector<string> split(const string &s, char div= ' '){
 	vector<string> res;
 	string parts;
