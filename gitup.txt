@@ -1,0 +1,6 @@
+git init
+git add foo.bar
+git commit -m "hoge"
+git branch -M main
+git remote add origin git@github.com:rykazari/AllEnglish.git
+git push -u origin main
