@@ -22,13 +22,13 @@ vector<string> split(const string &s, char div= ' '){
 }
 
 int main(){
-	string s;
-	while(getline(cin,s)){
-		auto inputs = split(s);
-		if(inputs.size()>4)
-			for(int i = 4 ; i < int(inputs.size()); i++)
-				inputs[3]+=" "+inputs[i];
-		printf("|**%s**|%s|%s|%s|\n", inputs[0].c_str(), inputs[1].c_str(), inputs[2].c_str(), inputs[3].c_str());
+	string input;
+	while(getline(cin, input)){
+		auto t = split(input);
+		if(t.size() > 4)
+			for(int i = 4; i < int(t.size()); i++)
+				t[3]+=" "+t[i];
+		printf("|**%s**|%s|%s|%s|\n", t[0].c_str(), t[1].c_str(), t[2].c_str(), t[3].c_str());
 	}
 	return 0;
 }
