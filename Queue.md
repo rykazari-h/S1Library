@@ -28,8 +28,6 @@
 + 特定する
 + federal
 + 連邦の
-+ bias->prejudice
-+ 偏見/先入観
 + expenditure
 + 支出,消費
 + abundant
