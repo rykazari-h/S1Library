@@ -1,4 +1,4 @@
-# 取り合えずわかんなかった単語
+# 取り敢えずわかんなかった単語
 + dawn
 + 始まり,夜明け
 + cultivate
@@ -30,4 +30,26 @@
 + 連邦の
 + bias->prejudice
 + 偏見/先入観
++ expenditure
++ 支出,消費
++ abundant
++ 豊富な
++ wealth
++ 富,豊富な
++ servant
++ 召使
++ masterpiece
++ 傑作
++ regard
++ みなす,尊重,注意
++ regarding
++ 関して
++ regardless
++ 無頓着な
++ coast
++ 沿岸
++ efficiency
++ 効率
++ dscription
++ 描写,記述,説明書
 +
