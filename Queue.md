@@ -1,19 +1,10 @@
 # 取り敢えずわかんなかった単語
-+ dawn
-+ 始まり,夜明け
 + cultivate
 + 養う,栽培する,耕す
-+ cultivation
-+ 上の名詞系
 + physician
 + 内科医
 + domesticate
 + 飼いならす
-+ nevertheless
-+ nonetheless
-+ それにもかかわらず
-+ decay
-+ 腐る
 + extract
 + 抽出する
 + isolate
@@ -50,4 +41,4 @@
 + 効率
 + dscription
 + 描写,記述,説明書
-+
+
