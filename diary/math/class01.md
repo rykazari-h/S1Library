@@ -20,7 +20,7 @@ $`\Huge a_n =
 ## 知識系
 * コンビネーションの変換（証明略）  
   
-$`\begin{cases}
+$`_Huge \begin{cases}
 r\binom{n}{r}=n\binom{n-1}{r-1} \\
 \binom{n}{r}=\binom{n}{n-r} \\
 \binom{n}{r}=\binom{n-1}{r-1}+\binom{n-1}{r}
