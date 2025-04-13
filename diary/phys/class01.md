@@ -3,9 +3,9 @@
 * 三角比  
 単位円を描こう！  
   
-$`\Huge\sin\theta=\frac{y}{r} `$  
-$`\Huge\cos\theta=\frac{x}{r} `$  
-$`\Huge\tan\theta=\frac{y}{x}`$  
+$`\Large\sin\theta=\Huge\frac{y}{r} `$  
+$`\Large\cos\theta=\Huge\frac{x}{r} `$  
+$`\Large\tan\theta=\Huge\frac{y}{x}`$  
 radが来たときは$`\frac{\pi}{180}`$をかけよう($`1^\circ=\frac{\pi}{180}\text{rad}`$)  
 * 物理基礎の公式（運動方程式で滅茶つかう）  
 $`\Huge v=v_0+at `$  
