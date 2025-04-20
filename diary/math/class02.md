@@ -17,34 +17,35 @@
 # 04/20まとめ
 ### 何もしていない
 ## 順列(next_permutation)について
-次の順列を見る時、あるインデックスi未満が変わって、i以上が変わらないということは起こりえません。よって、a[i]＜a[i+1]となるiを見つけ、a[i]より大きい数を探せばいいということがわかります。それらをスワップしたあとに、i以降の配列を昇順にするには、O(nlog(n))かける必要はなく、前の順列のi以降が降順に並んでいることからO(n)でreverseすれば良いとわかります。c++ではイテレータやテンプレートを使えるので、以下のように簡潔に実装できます。
-```cpp:next_permutation.h
-namespace rhyska{
-	template<class I,class C>
-	bool next_premutation(I f,I l,C c){
-		auto sw=[&](I a,I b){auto t=*a;*a=*b;*b=t;};
-		auto rev=[&](I a,I b){for(--b;a<b;++a,--b)sw(a,b);};
-		if(f==l)return 0;
-		I i=l;--i;
-		if(f==i)return 0;
-		for(;;){
-			I si=i;--i;
-			if(c(*i,*si)){
-				I j=l;
-				while(!c(*i,*--j));
-				sw(i,j);
-				rev(si,l);
-				return 1;
-			}
-			if(i==f){
-				rev(f,l);
-				return 0;
-			}
+次の順列を見る時、あるインデックスi未満が変わって、i以上が変わらないということは起こりえません。よって、a[i]＜a[i+1]となるiを見つけ、a[i]より大きい数を探せばいいということがわかります。それらをスワップしたあとに、i以降の配列を昇順にするには、O(nlog(n))かける必要はなく、前の順列のi以降が降順に並んでいることからO(n)でreverseすれば良いとわかります。c言語で実装すると、次のようになります(int配列の順列)
+```c:next_permutation.c
+void swap(int*a,int*b){
+	int t=*a;
+	*a=*b;
+	*b=t;
+}
+void reverse(int*a,int*b){
+	--b;
+	while(a<b)swap(a++,b--);
+}
+
+int next_permutation(int*first,int*last) {
+	if(first==last)return 0;
+	int*i=last-1;
+	if(first==i)return 0;
+	for(;;){
+		int*ii=i--;
+		if(*i<*ii){
+			int*j=last;
+			while(!(*i<*--j));
+			swap(i,j);
+			reverse(ii,last);
+			return 1;
 		}
-	}
-	template<class I,class T>
-	bool next_permutaion(I f,I l){
-		return next_permutation(f,l,[](T a,T b){return a<b;});
+		if(i==first){
+			reverse(first,last);
+			return 0;
+		}
 	}
 }
 ```
