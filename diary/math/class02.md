@@ -49,5 +49,18 @@ int next_permutation(int*first,int*last) {
 	}
 }
 ```
+テストしたい際は、以下のコードを使ってください。
+```c:test.c
+#include<stdio.h>
+int main(){
+	int a[20];
+	int n=4;
+	for(int i=0;i<n;i++)a[i]=i+1;
+	do{
+		for(int i=0;i<n;i++)printf("%d%c",a[i],i==n-1?'\n':' ');
+	}while(next_permutation(a,a+n));
+	return 0;
+}
+```
 ## 最後に
 ごとうこたろう怒られてて草
