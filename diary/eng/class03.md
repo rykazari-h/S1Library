@@ -5,7 +5,7 @@
 * dissemble--だます
 * in that--〜という点で--thatに前置詞は付きませんからね
 * attribute--割り当てる≒帰す
-* ugly--醜い
+* ugly--醜い  
 **☆　彼は多くの人を救ったと考えられている。**  
 en(normal):It is thought that he saved many people.  
 en:He is thought to have saved many people.//haveで過去のイメージをつける  
