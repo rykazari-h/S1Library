@@ -4,7 +4,7 @@ $`\huge \begin{cases}
 y=h-\frac{1}{2}gt^2 \\
 y=v_{0}t-\frac{1}{2}gt^2\\
 \end{cases}`$  
-よって$`t=\frac{h}{v_{0}}`$また、投げ上げが地面につくまでに追突すれば良いので$`2\frac{v_{0}}{g}\greater\frac{h}{v_{0}}`$より$`v_{0}\greater\sqrt{\frac{gh}{2}}`$  
+よって$`\Large t=\frac{h}{v_{0}}`$また、投げ上げが地面につくまでに追突すれば良いので$`\Large2\frac{v_{0}}{g}>\frac{h}{v_{0}}`$より$`\Largev_{0}>\sqrt{\frac{gh}{2}}`$  
 等加速度運動はいつもの式を立てとけばとりあえず行けるから、唸ってるやつはさっさと式をたてろ。
 ## 最後に
 頑張ろ
